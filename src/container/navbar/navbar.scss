@@ -21,6 +21,14 @@ header {
     font-weight: 300;
   }
 
+  p {
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    font-family: var(--overpass-font);
+    color: var(--white-text);
+    font-weight: 300;
+  }
+
   .no-btn {
     background-color: transparent;
     color: var(--white-text);
@@ -75,5 +83,11 @@ header {
     font-family: var(--ubunto-font);
     font-weight: 600;
     letter-spacing: 1px;
+    color: var(--light-red);
+    transition: transform 100ms ease-out;
+  }
+
+  button:active {
+    transform: scale(0.9);
   }
 }

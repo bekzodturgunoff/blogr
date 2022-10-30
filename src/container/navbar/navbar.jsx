@@ -6,7 +6,9 @@ export default function Navbar() {
     <header>
       <nav>
         <div className="nav-logo-links">
-          <img src={images.logo} alt="" />
+          <a href="#">
+            <img src={images.logo} alt="" />
+          </a>
           <ul>
             {" "}
             <li>
