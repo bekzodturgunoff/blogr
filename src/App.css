@@ -1,0 +1,10 @@
+nav,
+.hero,
+.nav-bottom,
+.item-info,
+.infrastructur,
+.footer-container {
+  max-width: 1440px;
+  margin: auto;
+  padding: 2rem;
+}

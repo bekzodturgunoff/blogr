@@ -1,0 +1,38 @@
+header {
+  background-color: var(--light-red);
+  color: var(--white-text);
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav-logo-links,
+  .nav-logo-links ul {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+
+    img {
+      height: 40px;
+    }
+  }
+
+  a {
+    color: var(--white-text);
+  }
+
+  .nav-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+
+    .nav-bottom-btn {
+      display: flex;
+      gap: 1rem;
+    }
+  }
+}
