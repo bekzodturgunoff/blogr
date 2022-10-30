@@ -35,6 +35,23 @@ export default function Hero() {
           </div>
         </div>
       </div>
+      <div className="infrastructure-background">
+        <div className="infrastructure">
+          <div className="infrastructure-img">
+            <img src={images.illustration_phones} alt="phones" />
+          </div>
+
+          <div className="infrastructure-text">
+            <h2>State of the Art Infrastructure</h2>
+            <p>
+              With reliability and speed in mind, worldwide data centers provide
+              the backbone for ultra-fast connectivity. This ensures your site
+              will load instantly, no matter where your readers are, keeping
+              your site competitive.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

@@ -1,6 +1,10 @@
 header {
-  background-color: var(--light-red);
-
+  background-color: rgb(255, 82, 93);
+  background-color: linear-gradient(
+    310deg,
+    rgba(255, 82, 93, 1) 0%,
+    rgba(255, 143, 112, 1) 100%
+  );
   color: var(--white-text);
   border-bottom-left-radius: 6rem;
   height: 550px;

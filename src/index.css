@@ -67,7 +67,7 @@ select {
 }
 
 /* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
-@media (prefers-reduced-motion: reduce) {
+/* @media (prefers-reduced-motion: reduce) {
   html:focus-within {
     scroll-behavior: auto;
   }
@@ -80,25 +80,25 @@ select {
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
-}
+} */
 
 @import url("https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:ital,wght@0,400;0,500;1,700&display=swap");
 
 :root {
-  --light-red: hsl(356, 100%, 66%);
-  --light-red-hover: hsl(355, 100%, 74%);
-  --dark-blue-heading: hsl(208, 49%, 24%);
+  --light-red: #ff525d;
+  --light-red-hover: #ff7a85;
+  --dark-blue-heading: #1f3f5b;
 
-  --white-text: hsl(0, 0%, 100%);
-  --footer-text: hsl(240, 2%, 79%);
-  --grayish-blue: hsl(207, 13%, 34%);
-  --footer-background: hsl(240, 10%, 16%);
+  --white-text: hwb(0 100% 0%);
+  --footer-text: #c8c8cb;
+  --grayish-blue: #4b5862;
+  --footer-background: #25252d;
 
-  --intro-gradient-light-red: hsl(13, 100%, 72%);
-  --intro-gradient-red: hsl(353, 100%, 62%);
+  --intro-gradient-light-red: #ff8f70;
+  --intro-gradient-red: #ff3d54;
 
-  --body-gradient-dark-blue: hsl(237, 17%, 21%);
-  --body-gradient-blue: hsl(237, 23%, 32%);
+  --body-gradient-dark-blue: #2c2d3f;
+  --body-gradient-blue: #3f4164;
 
   --overpass-font: "Overpass", sans-serif;
   --ubunto-font: "Ubuntu", sans-serif;

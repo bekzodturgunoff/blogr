@@ -1,7 +1,3 @@
-.hero-background {
-  overflow-x: hidden;
-}
-
 .hero {
   margin-top: 10rem;
 
@@ -10,7 +6,7 @@
     text-align: center;
     font-size: 3rem;
     font-family: var(--overpass-font);
-    color: var(--grayish-blue);
+    color: var(--dark-blue-heading);
   }
 }
 .hero-container {
@@ -23,18 +19,19 @@
   width: 40%;
   display: flex;
   flex-direction: column;
-  gap: 3rem;
+  gap: 6rem;
 
   h2 {
     font-size: 2rem;
     font-family: var(--overpass-font);
-    color: var(--grayish-blue);
+    color: var(--dark-blue-heading);
   }
 
   p {
     font-size: 1.1rem;
     color: var(--grayish-blue);
     font-family: var(--overpass-font);
+    letter-spacing: 1px;
   }
 }
 
@@ -51,4 +48,45 @@
   img {
     width: 1110px;
   }
+}
+.infrastructure {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10rem;
+  height: 450px;
+  color: var(--white-text);
+
+  .infrastructure-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 60%;
+
+    h2 {
+      font-family: var(--overpass-font);
+      font-size: 2.6rem;
+      color: var(--white-text);
+    }
+    p {
+      font-family: var(--overpass-font);
+      font-size: 1.2rem;
+      font-weight: 300;
+    }
+  }
+}
+
+.infrastructure-img img {
+  width: 50rem;
+}
+
+.infrastructure-background {
+  background-color: var(--body-gradient-dark-blue);
+  background-image: url(../../assets/images/bg-pattern-circles.svg);
+  background-repeat: no-repeat;
+  background-position: -19rem -50rem;
+  background-size: 90rem;
+  margin-top: 20rem;
+  border-top-right-radius: 5rem;
+  border-bottom-left-radius: 5rem;
 }
