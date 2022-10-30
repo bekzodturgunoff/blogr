@@ -82,6 +82,8 @@ select {
   }
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:ital,wght@0,400;0,500;1,700&display=swap");
+
 :root {
   --light-red: hsl(356, 100%, 66%);
   --light-red-hover: hsl(355, 100%, 74%);
@@ -97,4 +99,7 @@ select {
 
   --body-gradient-dark-blue: hsl(237, 17%, 21%);
   --body-gradient-blue: hsl(237, 23%, 32%);
+
+  --overpass-font: "Overpass", sans-serif;
+  --ubunto-font: "Ubuntu", sans-serif;
 }

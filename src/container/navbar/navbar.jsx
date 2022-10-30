@@ -21,7 +21,7 @@ export default function Navbar() {
           </ul>
         </div>
         <div className="nav-register">
-          <button>Login</button>
+          <button className="no-btn">Login</button>
           <button>Sign Up</button>
         </div>
       </nav>
@@ -30,7 +30,7 @@ export default function Navbar() {
         <p>Grow your audince and build online brand</p>
         <div className="nav-bottom-btn">
           <button>Start for free</button>
-          <button>Learn more</button>
+          <button className="border-btn">Learn more</button>
         </div>
       </div>
     </header>
