@@ -1,0 +1,36 @@
+footer {
+  background-color: var(--footer-background);
+  height: 450px;
+  border-top-right-radius: 10rem;
+  margin-top: 10rem;
+}
+
+.footer-container {
+  display: flex;
+  gap: 10rem;
+  padding-top: 6rem;
+}
+
+.footer-links {
+  display: flex;
+  gap: 15rem;
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    span {
+      margin-bottom: 2rem;
+      font-size: 1.2rem;
+      font-family: var(--overpass-font);
+      color: var(--white-text);
+      letter-spacing: 1px;
+    }
+    li {
+      font-size: 1.2rem;
+      font-family: var(--overpass-font);
+      color: var(--footer-text);
+    }
+  }
+}
